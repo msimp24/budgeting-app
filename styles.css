@@ -4,6 +4,7 @@
 body{
     margin-left: 80px;
 
+
 }
 
 h3{
@@ -12,10 +13,10 @@ h3{
 
 .input-container{
     display:flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     justify-content: space-between;
     height:450px;
-    width:400px;
+    width:1100px;
 
 }
 textarea{
@@ -61,6 +62,14 @@ button{
     border: red solid 2px;
     border-radius: 5px;
 }
+.expense-container-2{
+    display:flex;
+    height:250px;
+    width: 600px;
+    margin-top: 10px;
+
+}
+
 .expense-btn{
     margin-left: 10px;
     margin-top: 10px;
@@ -70,4 +79,40 @@ button{
     border-radius: 5px;
     color:red;
     font-size: 15px;
+}
+.expense-btn:hover{
+    cursor: pointer;
+}
+
+.results-container{
+    display:flex;
+    height:145px;
+    width:600px;
+
+}
+.red{
+    color:red;
+}
+
+.green{
+    color:green;
+}
+.black{
+    color:black;
+}
+.child{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 145px;
+    width:200px;
+
+}
+.expense-container-child{
+    display:flex;
+    flex-direction: column;
+    border: black solid 2px;
+    height: 250px;
+    width:200px;
 }
