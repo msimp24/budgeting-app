@@ -11,6 +11,7 @@ h3{
     margin-left: 10px;
 }
 
+
 .input-container{
     display:flex;
     flex-wrap: wrap;
@@ -63,9 +64,8 @@ button{
     border-radius: 5px;
 }
 .expense-container-2{
-    display:flex;
     height:250px;
-    width: 600px;
+    width: 550px;
     margin-top: 10px;
 
 }
@@ -115,4 +115,21 @@ button{
     border: black solid 2px;
     height: 250px;
     width:200px;
+}
+table, th, td{
+    width:600px;
+
+    table-layout: auto;
+}
+th{
+    text-align: left;
+}
+.data-table{
+ 
+}
+#icon-buttons:hover{
+    cursor: pointer;
+}
+#icon-buttons{
+    margin-left: 5px;
 }
